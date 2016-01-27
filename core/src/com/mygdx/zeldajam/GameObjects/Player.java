@@ -14,7 +14,7 @@ public class Player extends GameObject {
         super("Hero");
 
         // List of components
-        components.add(new RenderComponent(new Texture("test.png"), this,0,0,300,300));
+        components.add(new RenderComponent(new Texture("testMedium.png"), this,0,0,300,300));
         components.add(new PlayerInputComponent(this));
     }
 }
